@@ -22,8 +22,8 @@ This project is designed to generate PDF vouchers with QR codes specifically for
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/qr-code-pdf-generator.git
-   cd qr-code-pdf-generator
+   git clone https://github.com/FirewallConsulting/voucher-builder.git
+   cd voucher-builder
    ```
 
 2. Install the required dependencies:
@@ -44,7 +44,7 @@ This project is designed to generate PDF vouchers with QR codes specifically for
 Once everything is set up, you can run the script to generate PDFs:
 
 ```bash
-python generate_pdfs.py
+python generate.py
 ```
 
 This will read the QR code images from the `images/` folder, place each one on the Foodbasket template, and save the resulting PDFs to the `output/` folder.
