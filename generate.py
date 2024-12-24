@@ -6,7 +6,7 @@ from PyPDF2 import PdfReader, PdfWriter
 
 # Define file paths and settings
 qr_images_dir = './images/'  # Folder containing QR code images
-template_path = './coupon_template.pdf'  # Your template PDF file
+template_path = './templates/coupon_template.pdf'  # Your template PDF file
 output_dir = './output/'  # Folder to save the generated PDFs
 
 # Ensure output directory exists
